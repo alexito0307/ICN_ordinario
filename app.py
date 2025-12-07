@@ -12,6 +12,7 @@ from flask_jwt_extended import JWTManager
 load_dotenv()
 def create_app(): 
   # Instancia de la app
+  # Prueba para el ordinario de Infraestructura
   app = Flask(__name__)
   init_db(app)
   #JWT
